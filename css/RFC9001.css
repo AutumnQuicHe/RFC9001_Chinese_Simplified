@@ -61,11 +61,11 @@ section.page h4 a:visited {
     color: #0c3f30;
 }
 .block.ref {
-    background: rgb(18, 18, 18);
+    background: #f6fffc;
     border-radius: 2px;
 }
 .content code {
-    background: rgb(20, 20, 20);
+    background: #ecfff9;
     -webkit-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.1);
