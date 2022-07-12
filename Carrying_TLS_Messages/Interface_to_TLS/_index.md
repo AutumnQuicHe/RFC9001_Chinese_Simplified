@@ -5,7 +5,7 @@ weight: 410
 rank: "h2"
 ---
 
-如[图4]()所示，QUIC面向TLS的接口由四个主要函数组成：
+如[图4](#Figure_4_QUIC_and_TLS_Interactions)所示，QUIC面向TLS的接口由四个主要函数组成：
 
 * 发送和接收握手消息
 
@@ -15,4 +15,4 @@ rank: "h2"
 
 * 更新握手状态
 
-为了配置TLS，可能需要额外的函数。尤其是，QUIC和TLS需要就哪一方负责验证对端的凭据，例如证书（详见《[RFC5280]()》），达成一致。
+为了配置TLS，可能需要额外的函数。尤其是，QUIC和TLS需要就哪一方负责验证对端的凭据，例如证书（详见《[RFC5280](https://www.rfc-editor.org/info/rfc5280)》），达成一致。

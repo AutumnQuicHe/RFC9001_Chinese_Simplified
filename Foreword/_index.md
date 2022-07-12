@@ -1,5 +1,5 @@
 ---
-title: "RFC9001 QUIC TLS"
+title: "RFC9001 QUIC-TLS"
 anchor: "RFC9001_QUIC"
 weight: 1
 ---

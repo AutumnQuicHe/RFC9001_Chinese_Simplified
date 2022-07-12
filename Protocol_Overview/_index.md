@@ -5,7 +5,7 @@ weight: 300
 rank: "h1"
 ---
 
-QUIC（详见《[QUIC传输]()》）负责数据包的可信度和完整性保护。为此它使用了衍生自TLS握手（详见《[TLS13]()》）的密钥，但如[图3]()所示，TLS握手和警告消息由QUIC传输层直接传递，而不是在QUIC传输层的基础上使用TLS记录来传递（TCP是这么做的），也就是说QUIC接管了TLS记录层的职责。
+QUIC（详见《[QUIC传输](../RFC9000_Chinese_Translation)》）负责数据包的可信度和完整性保护。为此它使用了衍生自TLS握手（详见《[TLS13](https://www.rfc-editor.org/info/rfc8446)》）的密钥，但如[图3](#Figure_3_QUIC_Layers)所示，TLS握手和警告消息由QUIC传输层直接传递，而不是在QUIC传输层的基础上使用TLS记录来传递（TCP是这么做的），也就是说QUIC接管了TLS记录层的职责。
 
 > TODO：图3
 
@@ -25,7 +25,7 @@ QUIC还依靠TLS来验证和协商那些安全和性能方面的关键参数。
 
 * TLS组件向QUIC组件提供一系列状态更新，包括(a)新的数据包保护密钥，和(b)状态变更，例如握手完成、服务器证书，等等。
 
-[图4]()更详细地展示了这些交互，并且把QUIC数据包保护单独提了出来。
+[图4](#Figure_4_QUIC_and_TLS_Interactions)更详细地展示了这些交互，并且把QUIC数据包保护单独提了出来。
 
 > TODO：图4
 
