@@ -7,13 +7,10 @@ rank: "h1"
 
 QUIC（详见《[QUIC传输](../RFC9000_Chinese_Translation)》）负责数据包的可信度和完整性保护。为此它使用了衍生自TLS握手（详见《[TLS13](https://www.rfc-editor.org/info/rfc8446)》）的密钥，但如[图3](#Figure_3_QUIC_Layers)所示，TLS握手和警告消息由QUIC传输层直接传递，而不是在QUIC传输层的基础上使用TLS记录来传递（TCP是这么做的），也就是说QUIC接管了TLS记录层的职责。
 
-> TODO：图3
-
 {{< block_img
 indx="Figure_3_QUIC_Layers"
 title="图3：QUIC的层"
-type="svg"
-src="/RFC9000_Chinese_Translation/images/Figure_2_States_for_Sending_Parts_of_Streams.svg" >}}
+src="/RFC9001_Chinese_Translation/images/Figure_3_QUIC_Layers.svg" >}}
 
 QUIC还依靠TLS来验证和协商那些安全和性能方面的关键参数。
 
@@ -27,12 +24,9 @@ QUIC还依靠TLS来验证和协商那些安全和性能方面的关键参数。
 
 [图4](#Figure_4_QUIC_and_TLS_Interactions)更详细地展示了这些交互，并且把QUIC数据包保护单独提了出来。
 
-> TODO：图4
-
 {{< block_img
 indx="Figure_4_QUIC_and_TLS_Interactions"
 title="图4：QUIC和TLS的交互"
-type="svg"
-src="/RFC9000_Chinese_Translation/images/Figure_2_States_for_Sending_Parts_of_Streams.svg" >}}
+src="/RFC9001_Chinese_Translation/images/Figure_4_QUIC_and_TLS_Interactions.svg" >}}
 
 不像基于TCP的TLS，想要发送数据的QUIC应用并不使用TLS应用数据记录来发送，而是将数据以QUIC**流帧**或其他类型的帧的形式发送，它们都是由QUIC数据包传递的。
