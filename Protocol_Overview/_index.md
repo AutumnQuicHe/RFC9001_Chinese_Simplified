@@ -10,7 +10,7 @@ QUIC（详见《[QUIC传输](../RFC9000_Chinese_Translation)》）负责数据�
 {{< block_img
 indx="Figure_3_QUIC_Layers"
 title="图3：QUIC的层"
-src="/RFC9001_Chinese_Translation/images/Figure_3_QUIC_Layers.svg" >}}
+src="/RFC9001_Chinese_Simplified/images/Figure_3_QUIC_Layers.svg" >}}
 
 QUIC还依靠TLS来验证和协商那些安全和性能方面的关键参数。
 
@@ -27,6 +27,6 @@ QUIC还依靠TLS来验证和协商那些安全和性能方面的关键参数。
 {{< block_img
 indx="Figure_4_QUIC_and_TLS_Interactions"
 title="图4：QUIC和TLS的交互"
-src="/RFC9001_Chinese_Translation/images/Figure_4_QUIC_and_TLS_Interactions.svg" >}}
+src="/RFC9001_Chinese_Simplified/images/Figure_4_QUIC_and_TLS_Interactions.svg" >}}
 
 不像基于TCP的TLS，想要发送数据的QUIC应用并不使用TLS应用数据记录来发送，而是将数据以QUIC**流帧**或其他类型的帧的形式发送，它们都是由QUIC数据包传递的。

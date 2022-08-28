@@ -20,4 +20,4 @@ rank: "h1"
 {{< block_img
 indx="Figure_9_Key_Update"
 title="图9：密钥更新"
-src="/RFC9001_Chinese_Translation/images/Figure_9_Key_Update.svg" >}}
+src="/RFC9001_Chinese_Simplified/images/Figure_9_Key_Update.svg" >}}
