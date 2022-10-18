@@ -5,13 +5,13 @@ weight: 1500
 rank: "h1"
 ---
 
-**Martin Thomson (编辑)**
+##### Martin Thomson (编辑)
 
 Mozilla
 
-Email: [mt@lowentropy.net](mainto:mt@lowentropy.net)
+Email: [mt@lowentropy.net](mailto:mt@lowentropy.net)
 
-**Sean Turner (编辑)**
+##### Sean Turner (编辑)
 
 sn3rd
 
